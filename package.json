@@ -1,0 +1,14 @@
+{
+  "name": "home-smart-storage-deploy",
+  "version": "1.0.0",
+  "description": "家庭智能储物系统 - 部署入口",
+  "scripts": {
+    "build": "cd 家庭智能储物系统/client && npm install && npx vite build",
+    "start": "node start.js",
+    "install:all": "cd 家庭智能储物系统/server && npm install && cd ../client && npm install"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}

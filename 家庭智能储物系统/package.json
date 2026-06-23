@@ -1,0 +1,14 @@
+{
+  "name": "home-smart-storage",
+  "version": "1.0.0",
+  "description": "家庭智能储物系统",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node index.js",
+    "client": "cd client && npx vite --host",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

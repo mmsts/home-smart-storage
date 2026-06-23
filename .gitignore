@@ -1,0 +1,11 @@
+node_modules/
+*.db
+.env
+client/dist/
+家庭智能储物系统/client/dist/
+家庭智能储物系统/server/node_modules/
+家庭智能储物系统/client/node_modules/
+.DS_Store
+*.log
+.claude/
+家庭智能储物系统/.claude/
