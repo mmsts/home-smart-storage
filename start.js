@@ -11,5 +11,5 @@ express.application.listen = function(...args) {
   return origListen.apply(this, args);
 };
 
-// 加载原始服务器（__dirname 自动指向正确的 server 目录）
-require('./家庭智能储物系统/server/index.js');
+// 加载原始服务器
+require('./server/index.js');
