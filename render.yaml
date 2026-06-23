@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: home-smart-storage
+    runtime: node
+    plan: free
+    buildCommand: cd 家庭智能储物系统/client && npm install && npx vite build && cd ../server && npm install
+    startCommand: node start.js
+    envVars:
+      - key: NODE_ENV
+        value: production
